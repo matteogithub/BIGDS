@@ -229,6 +229,73 @@ print("Risultato = ", risultato)
 
 ---
 
+# Istruzione condizionale
+
+Istruzione **if**
+
+if *espressione*: *istruzione*
+
+```Python
+i = 1
+if i < 10:
+    print(str(i) + " e' minore di 10")
+```
+
+- La valutazione di un'espressione restituisce ```True``` o ```False``` (1 o 0)
+
+---
+
+# Istruzione condizionale
+
+Ramo **else**
+
+```Python
+i = 100
+if i < 10:
+    print(str(i) + " e' minore di 10")
+else:
+    print(str(i) + " e' maggiore di 10")
+```
+
+---
+
+# Istruzione condizionale
+
+if **annidati**
+
+```Python
+i = -1
+if i < 10:
+    if i < 0:
+        print(str(i) + " e' negativo")
+    else:
+        print(str(i) + " e' minore di 10")
+else:
+    print(str(i) + " e' maggiore di 10")
+```
+
+---
+
+# Istruzione condizionale
+
+if **annidati**
+
+```Python
+i = 10
+if i < 10:
+    if i < 0:
+        print(str(i) + " e' negativo")
+    else:
+        print(str(i) + " e' minore di 10")
+else:
+    if i == 10:
+        print(str(i) + " e' uguale a 10")
+    else:
+        print(str(i) + " e' maggiore di 10")
+```
+
+---
+
 
 # Domande?
 
