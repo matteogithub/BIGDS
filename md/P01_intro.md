@@ -94,10 +94,12 @@ La definizione degli *oggetti* (variabili) ha come conseguenza l'assegnazione di
 
 **Stringa** ```"Matteo insegna Informatica"```
 
-***Numeri*** 
+**Numeri** 
 ```anni = 49```
 
-***Boolean*** ```True``` o ```False```
+**Boolean** ```True``` o ```False```
+
+Il **tipo** definisce l'insieme di operazioni che possono essere svolte su quella specifica variabile
 
 ---
 
