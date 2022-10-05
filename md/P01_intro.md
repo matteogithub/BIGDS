@@ -48,20 +48,35 @@ Windows (multipiattaforma)
 - Preferenze del IDE
 - Creazione di un nuovo progetto
 
-`print("Hello world")`
+Primo programma: `print("Hello world")`
+
+dove ```print``` rappresenta una funzione predefinita
+
+- Ogni istruzione termina con un *a capo*
+- Importanza della *indentazione*
+
+
+---
+
+# I commenti
+
+```Python
+# Il mio primo programma
+print("Hello world")
+```
 
 
 ---
 
 # Variabili
 
-Contenitori che posso *accogliere* al loro interno dei dati
+Contenitori che posso *accogliere* al loro interno dei dati (*tipo e nome*)
 
 **Esempio**:
 `print("Matteo insegna Informatica")`
 `print("Federica insegna Matematica")`
 
-con le variabili:
+con le **variabili** e operatore di **assegnamento**:
 ```Python
 char_nome = "Matteo"
 char_materia = "Informatica"
@@ -74,6 +89,8 @@ print(char_nome + " insegna " + char_materia)
 ---
 
 # Differenti tipo di dato
+
+La definizione degli *oggetti* (variabili) ha come conseguenza l'assegnazione di uno specifico spazio in *memoria centrale*
 
 **Stringa** ```"Matteo insegna Informatica"```
 
