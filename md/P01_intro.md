@@ -50,7 +50,7 @@ Windows (multipiattaforma)
 
 Primo programma: `print("Hello world")`
 
-dove ```print``` rappresenta una funzione predefinita
+dove ```print``` rappresenta una **funzione** predefinita (*built-in*)
 
 - Ogni istruzione termina con un *a capo*
 - Importanza della *indentazione*
