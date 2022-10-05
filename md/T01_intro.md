@@ -146,20 +146,6 @@ Alcune domande... **Mentimeter**
 www.menti.com
 
 ---
-# La mia attività di ricerca
-
-- Brain signal processing
-- Connectivity and Network analysis in M/EEG
-
-`Applicazioni avanzate di informatica medica e machine learning` 2 CFU - Gennaio/Febbraio 2022
-
----
-
-# Domande?
-
-www.menti.com
-
----
 
 # Test ingresso
 
@@ -187,3 +173,13 @@ https://forms.gle/H6egVb2hA9SU7vqbA
 ---
 
 # ![](/Users/matteo/Documents/GitHub/FDP/images/toplang.png)
+
+---
+
+**Building information modeling**: i dati rilevanti di una costruzione possono essere raccolti, combinati e collegati digitalmente.
+
+
+**Dynamo**: piattaforma di programmazione visiva open source per progettisti.
+
+**Midjourney**: programma di intelligenza artificiale che crea immagini da descrizioni testuali
+
