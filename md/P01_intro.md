@@ -206,7 +206,7 @@ print(sqrt(num))
 nome = input("Inserisci il tuo nome: ")
 print("Ciao " + nome + "!")
 ```
-La variabile di nome input conterrà il nome inserito dall'utente
+La variabile ```nome``` conterrà la **stringa** inserita dall'utente
 
 ---
 
@@ -223,8 +223,8 @@ print(risultato)
 ```Python
 num_1 = input("Inserisci un numero: ")
 num_2 = input("Inserisci un altro numero: ")
-risultato = float(num_1) + float(num_2)
-print(risultato)
+risultato = float(num_1) + float(num_2) 
+print("Risultato = ", risultato)
 ```
 
 ---
