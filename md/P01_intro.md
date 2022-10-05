@@ -229,7 +229,7 @@ print("Risultato = ", risultato)
 
 ---
 
-# Istruzione condizionale
+# Istruzioni condizionali
 
 Istruzione **if**
 
@@ -245,7 +245,7 @@ if i < 10:
 
 ---
 
-# Istruzione condizionale
+# Istruzioni condizionali
 
 Ramo **else**
 
@@ -259,7 +259,7 @@ else:
 
 ---
 
-# Istruzione condizionale
+# Istruzioni condizionali
 
 if **annidati**
 
@@ -276,7 +276,7 @@ else:
 
 ---
 
-# Istruzione condizionale
+# Istruzioni condizionali
 
 if **annidati**
 
@@ -296,6 +296,54 @@ else:
 
 ---
 
+# Istruzioni iterative
+
+Ripetere un'operazione un certo numero di volte
+
+```Python
+print(1)
+print(2)
+print(3)
+```
+
+```Python
+for i in (1, 2, 3):
+    print(i)
+```
+- ad ogni iterazione `i` assume i valori indicati nelle `()` ed viene eseguita l'istruzione che segue i `:`
+- l'operatore `in` assume `True` o `False`
+
+---
+
+# Istruzioni iterative
+
+```Python
+somma = 0
+for i in (0, 1, 2):
+    somma = somma + i
+print(somma)
+```
+
+```Python
+somma = 0
+for i in range(3):
+    somma = somma + i
+print(somma)
+```
+
+---
+
+# Istruzioni iterative
+
+```Python
+somma = 0
+for i in range(3):
+    n = int(input("Inserisci un numero: "))
+    somma = somma + n
+print("La somma vale: " + str(somma))
+```
+
+---
 
 # Domande?
 
