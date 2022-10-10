@@ -384,6 +384,29 @@ print("Somma = ", somma)
 
 ---
 
+# Istruzioni iterative: media
+
+```Python
+somma = 0
+i = 0
+numero = 1
+
+while numero != 0:
+    numero = input("Ins. valore: ")
+    numero = int(numero)
+    somma = somma + numero
+    i = i + 1
+print("Somma = ", somma)
+print("i = ", i)
+media = somma / (i - 1)
+print("Media = ", media)
+
+```
+
+---
+
+
+
 # Domande?
 
 www.menti.com
