@@ -296,6 +296,27 @@ else:
 
 ---
 
+# Calcolatrive v.2
+
+```Python
+num_1 = float(input("Inserisci un numero: "))
+op = input("Inserisci l'operazione: ")
+num_2 = float(input("Inserisci un altro numero: "))
+
+if op == "+":
+    print("Risultato = ", num_1 + num_2)
+elif op == "-":
+    print("Risultato = ", num_1 - num_2)
+elif op == "*":
+    print("Risultato = ", num_1 * num_2)
+elif op == "/":
+    print("Risultato = ", num_1 / num_2)
+else:
+    print("Operazione non valida!")
+```
+
+---
+
 # Istruzioni iterative
 
 Ripetere un'operazione un certo numero di volte
@@ -341,6 +362,24 @@ for i in range(3):
     n = int(input("Inserisci un numero: "))
     somma = somma + n
 print("La somma vale: " + str(somma))
+```
+
+---
+
+# Istruzioni iterative
+
+```Python
+somma = 0
+i=1
+numero = 1
+
+while numero != 0 and i <= 10:
+    numero = input("Ins. valore: ")
+    numero = int(numero)
+    somma = somma + numero
+    i = i +1
+print("Somma = ", somma)
+
 ```
 
 ---
