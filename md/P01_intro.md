@@ -457,6 +457,26 @@ print("Media = ", media)
 
 ---
 
+# Esercizio
+Scrivere un programma che calcoli la media di N numeri. N è definito dall'utente.
+
+---
+
+```Python
+print("Quanti numeri vuoi inserire: ")
+n = int(input())
+print("Inserisci i " + str(n) + " numeri: ")
+somma = 0
+for i in range(n):
+    numero = int(input("Inserisci un numero: "))
+    somma = somma + numero
+media = somma / n
+print("La media vale: " + str(media))
+```
+
+---
+
+
 
 
 # Domande?
