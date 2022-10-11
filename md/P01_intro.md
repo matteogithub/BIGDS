@@ -296,6 +296,59 @@ else:
 
 ---
 
+# Istruzioni condizionali
+
+**Esercizio**
+
+Scrivere un programma che permetta di valutare se un numero intero (letto da tastiera) è pari o dispari
+
+---
+
+```Python
+print("Inserisci un numero: ")
+num = int(input())
+
+if num % 2 == 0:
+    print("Il numero inserito e' pari")
+else:
+    print("Il numero inserito e' dispari")
+```
+
+---
+
+# Esercizio
+
+Creare un programma che presi in ingresso il peso (in Kg) e l'altezza (in m) di una persona, calcoli il BMI.
+
+$$BMI=peso/(altezza^2)$$
+
+Il programma dovrà successivamente assegnare una delle seguenti tre classi:
+
+- sottopeso se BMI <= 20
+- normopeso se 20<BMI<=30
+- sovrappeso se BMI >30
+
+---
+
+```Python
+peso = float(input("Inserisci il peso in Kg: "))
+altezza = float(input("Inserisci l'altezza in m: "))
+
+bmi = peso / altezza**2
+
+print("Il bmi vale: {:.2f}".format(bmi))
+
+if bmi <= 20:
+    print("Sei sottopeso")
+elif 20 < bmi <= 30:
+    print("Sei normopeso")
+else:
+    print("Sei sovrappeso")
+```
+
+---
+
+
 # Calcolatrive v.2
 
 ```Python
@@ -400,7 +453,6 @@ print("Somma = ", somma)
 print("i = ", i)
 media = somma / (i - 1)
 print("Media = ", media)
-
 ```
 
 ---
