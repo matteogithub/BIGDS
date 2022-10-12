@@ -241,7 +241,10 @@ print("Risultato = ", risultato)
 
 Istruzione **if**
 
-if *espressione*: *istruzione*
+```Python
+if condizione:
+     istruzione/i
+```
 
 ```Python
 i = 1
@@ -256,6 +259,13 @@ if i < 10:
 # Istruzioni condizionali
 
 Ramo **else**
+
+```Python
+if condizione:
+    istruzione/i
+else:
+    istruzione/i
+```
 
 ```Python
 i = 100
@@ -320,6 +330,20 @@ if num % 2 == 0:
     print("Il numero inserito e' pari")
 else:
     print("Il numero inserito e' dispari")
+```
+
+---
+# Istruzioni condizionali
+
+**elif**
+
+```Python
+if condizione:
+    istruzione/i
+elif condizione:
+    istruzione/i
+else: 
+    istruzione/i
 ```
 
 ---
@@ -392,6 +416,12 @@ print(3)
 for i in (1, 2, 3):
     print(i)
 ```
+
+```Python
+for valore in sequenza:
+    istruzione/i
+```
+
 - ad ogni iterazione `i` assume i valori indicati nelle `()` ed viene eseguita l'istruzione che segue i `:`
 - l'operatore `in` assume `True` o `False`
 
@@ -428,6 +458,11 @@ print("La somma vale: " + str(somma))
 ---
 
 # Istruzioni iterative
+
+```Python
+while espressione:
+    istruzione/i
+```
 
 ```Python
 somma = 0
