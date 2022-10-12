@@ -98,7 +98,7 @@ print(char_nome + " insegna " + char_materia)
 
 # Differenti tipo di dato
 
-La definizione degli *oggetti* (variabili) ha come conseguenza l'assegnazione di uno specifico spazio in *memoria centrale*
+La definizione degli *oggetti* (e delle variabili) ha come conseguenza l'assegnazione di uno specifico spazio in *memoria centrale*
 
 **Stringa** ```"Matteo insegna Informatica"```
 
