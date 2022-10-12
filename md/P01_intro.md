@@ -116,6 +116,19 @@ print(char_nome + " insegna " + char_materia)
 
 ---
 
+# Essenziali
+
+Con `x = x + 1` cosa succede?
+
+- viene recuperato il riferimento (indirizzo) contenuto in `x`
+- il valore contenuto nella corrispondende locazione di memoria viene recuperato (`0`)
+- viene eseguito in calcolo `0 + 1`
+- viene creato un nuovo intero `1` (oggetto)
+- viene aggiornato il riferimento di `x`, ora con l'indirizzo dell'oggetto `1`
+- il vecchio oggetto `0` viene perso e quella locazione di memoria resa disponibile
+
+---
+
 # Differenti tipo di dato
 
 La definizione degli *oggetti* (e delle variabili) ha come conseguenza l'assegnazione di uno specifico spazio in *memoria centrale*
@@ -538,9 +551,6 @@ print("La media vale: " + str(media))
 ```
 
 ---
-
-
-
 
 # Domande?
 
