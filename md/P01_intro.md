@@ -43,6 +43,16 @@ Windows (multipiattaforma)
 
 ---
 
+# web-based tool
+
+Windows (multipiattaforma)
+
+- **codeboard**: codeboard.io
+- **replit**: https://replit.com/
+- **colab**: https://colab.research.google.com/
+
+---
+
 # Setup e primo programma
 
 - Preferenze del IDE
