@@ -73,7 +73,6 @@ dove ```print``` rappresenta una **funzione** predefinita (*built-in*)
 print("Hello world")
 ```
 
-
 ---
 
 # Variabili
@@ -93,6 +92,27 @@ char_nome = "Federica"
 char_materia = "Matematica"
 print(char_nome + " insegna " + char_materia)
 ```
+
+---
+
+# Essenziali
+
+- assegnazione `=` (da non confondere con `==`)
+- operatori aritmetici `+ - * / %`
+- operatori logici `and or not`
+- NO definizione tipo delle variabili
+- indentatura
+- usare una variabile ha l'effetto di impostare una `etichetta (o nome)` che contiene un `riferimento` ad un `oggetto`
+- le etichette *non hanno un tipo* - gli oggetti *hanno un tipo*
+
+---
+# Essenziali
+
+`x = 0`
+
+- viene creato un intero e memorizzato
+- viene creata un etichetta di nome `x`
+- `x` contiene un riferimento alla locazione di memoria che contiene il valore `0`
 
 ---
 
