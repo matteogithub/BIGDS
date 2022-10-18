@@ -260,7 +260,9 @@ num_2 = input("Inserisci un altro numero: ")
 risultato = int(num_1) + int(num_2)
 print(risultato)
 ```
-...ma attenzione!
+... int() ???
+... ma attenzione!
+
 ```Python
 num_1 = input("Inserisci un numero: ")
 num_2 = input("Inserisci un altro numero: ")
@@ -269,6 +271,19 @@ print("Risultato = ", risultato)
 ```
 
 ---
+
+```Python
+num_1 = input("Inserisci un numero: ")
+num_2 = input("Inserisci un altro numero: ")
+risultato = float(num_1) / float(num_2)
+#format_float = "{:.2f}".format(risultato)
+#print(format_float)
+print("{:.2f}".format(risultato))
+
+```
+
+---
+
 
 # Istruzioni condizionali
 
