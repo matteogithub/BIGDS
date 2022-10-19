@@ -722,6 +722,11 @@ for i in range(5):
 print(x)
 ```
 
+```Python
+x.insert(0, 99)
+print(x)
+```
+
 ---
 
 # Esercizio
