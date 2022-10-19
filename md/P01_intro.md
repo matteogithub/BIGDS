@@ -779,6 +779,22 @@ print("z: ", z)
 
 ---
 
+# Liste - attenzione
+
+```Python
+x = [1, 3, 5, 2]
+print("x: ", x)
+y = x.copy()
+z = x[:]
+x.sort()
+print("x: ", x)
+print("y: ", y)
+print("z: ", z)
+
+```
+
+---
+
 # Domande?
 
 www.menti.com
