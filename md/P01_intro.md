@@ -680,6 +680,81 @@ print(x.index(40))
 
 ---
 
+# Liste
+
+Collezioni ordinate e modificabili 
+- possono contenere valori duplicati
+- possono contenere valori eterogenei
+
+`x = [10, 20, 10, 40, 10, 60]`
+
+```Python
+x = [10, 20, 10, 40, 10, 60]
+print(x)
+print(type(x))
+```
+
+---
+
+# Liste e substription
+
+```Python
+x = [10, 20, 10, 40, 10, 60]
+x[0] = 11
+print(x)
+```
+
+```Python
+x = [10, 20, 10, 40, 10, 60]
+x.append(100)
+print(x)
+```
+
+---
+
+# Liste e inizializzazione
+
+```Python
+x = []
+for i in range(5):
+    print("Inserisci numero: ", end='')
+    x.append(int(input()))
+print(x)
+```
+
+---
+
+# Esercizio
+
+Scrivere un programma che memorizzi N voti e determini la media, il voto maggiore e il voto minore
+
+---
+
+```Python
+n = int(input("Quanti voti vuoi inserire? "))
+print(n)
+voti = []
+for i in range(n):
+    print("Inserisci voto: ")
+    voti.append(int(input()))
+max = voti[0]
+min = voti[0]
+somma = 0
+for x in voti:
+    somma = somma + x
+    if x > max:
+        max = x
+    if x < min:
+        min = x
+media = somma / n
+print("Massimo: ", max)
+print("Minimo: ", min)
+print("Media: ", "{:.2f}".format(media))
+```
+
+---
+
+
 # Domande?
 
 www.menti.com
