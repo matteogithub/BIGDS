@@ -764,6 +764,20 @@ print("Media: ", "{:.2f}".format(media))
 
 ---
 
+# Liste - attenzione
+
+```Python
+x = [1, 3, 5, 2]
+print("x: ", x)
+y = x
+z = x[:]
+x.sort()
+print("x: ", x)
+print("y: ", y)
+print("z: ", z)
+```
+
+---
 
 # Domande?
 
