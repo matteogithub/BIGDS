@@ -470,7 +470,7 @@ for valore in sequenza:
     istruzione/i
 ```
 
-- ad ogni iterazione `i` assume i valori indicati nelle `()` ed viene eseguita l'istruzione che segue i `:`
+- ad ogni iterazione `i` assume i valori indicati nelle `()` e viene eseguita l'istruzione che segue i `:`
 - l'operatore `in` assume `True` o `False`
 
 ---
@@ -563,6 +563,119 @@ for i in range(n):
     somma = somma + numero
 media = somma / n
 print("La media vale: " + str(media))
+```
+
+---
+
+# Immutable / Mutable
+
+int, float e stringhe sono *immutable*
+```Python
+x = 10
+y = x
+y = 20
+print(x) # stampa 10
+```
+Le liste sono *mutable*
+```Python
+x = [1, 2, 3]
+y = x
+print(y)
+x.append(4)
+print(y)
+```
+
+---
+
+# Collezioni
+
+Oggetti di tipo sequenza: stringhe, tuple, liste e dizionari.
+
+
+---
+
+# Tuple
+
+Collezioni ordinate e non modificabili 
+- possono contenere duplicati
+- possono contenere valori eterogenei 
+
+`x = (1, 2, 3)` o `x = 1, 2, 3`
+
+Per verificare il tipo: `print(type(x))`
+
+```Python
+x = 1,
+print(x)
+print(type(x))
+y = 1
+print(y)
+print(type(y))
+```
+---
+
+# Tuple e subscription
+
+```Python
+x = (1, 2, 3)
+print(x[0])
+```
+Attenzione!
+```Python
+x = (1, 2, 3)
+print(x[3])
+```
+```Python
+x = (1, 2, 3)
+x[1] = 10
+print(x[0])
+```
+---
+
+# Tuple 
+
+Invece...
+```Python
+x = (1, 2, 3)
+print(x)
+x = (10, 20, 30)
+print(x)
+```
+
+---
+
+# Tuple e slicing
+
+```Python
+x = (1, 2, 3, 4, 5, 6)
+print(x[1:3])
+print(x[2:])
+print(x[:3])
+```
+
+---
+
+# Tuple e `in`
+
+```Python
+x = (1, 2, 3, 4, 5, 6)
+for i in x:
+    print(i)
+```
+
+---
+
+# Tuple e metodi
+`count` e `index`
+
+```Python
+x = (10, 20, 10, 40, 10, 60)
+print(x.count(10))
+```
+
+```Python
+x = (10, 20, 10, 40, 10, 60)
+print(x.index(40))
 ```
 
 ---
