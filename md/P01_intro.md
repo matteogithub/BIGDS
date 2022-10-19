@@ -727,6 +727,11 @@ x.insert(0, 99)
 print(x)
 ```
 
+```Python
+x.sort()
+print(x)
+```
+
 ---
 
 # Esercizio
