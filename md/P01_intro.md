@@ -521,7 +521,7 @@ while numero != 0 and i <= 10:
     numero = input("Ins. valore: ")
     numero = int(numero)
     somma = somma + numero
-    i = i +1
+    i = i + 1
 print("Somma = ", somma)
 
 ```
@@ -532,18 +532,18 @@ print("Somma = ", somma)
 
 ```Python
 somma = 0
-i = 0
+i=0
 numero = 1
-
 while numero != 0:
     numero = input("Ins. valore: ")
     numero = int(numero)
     somma = somma + numero
-    i = i + 1
+    i = i+1
 print("Somma = ", somma)
-print("i = ", i)
-media = somma / (i - 1)
-print("Media = ", media)
+#print("i = ", i)
+if somma != 0:
+    media = somma / (i - 1)
+    print("Media = ", media)
 ```
 
 ---
