@@ -747,18 +747,18 @@ voti = []
 for i in range(n):
     print("Inserisci voto: ")
     voti.append(int(input()))
-max = voti[0]
-min = voti[0]
+massimo = voti[0]
+minimo = voti[0]
 somma = 0
 for x in voti:
     somma = somma + x
-    if x > max:
-        max = x
-    if x < min:
-        min = x
+    if x > massimo:
+        massimo = x
+    if x < minimo:
+        minimo = x
 media = somma / n
-print("Massimo: ", max)
-print("Minimo: ", min)
+print("Massimo: ", massimo)
+print("Minimo: ", minimo)
 print("Media: ", "{:.2f}".format(media))
 ```
 
