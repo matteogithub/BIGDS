@@ -795,6 +795,111 @@ print("z: ", z)
 
 ---
 
+# Le funzioni
+
+Una *funzione* è costituita da insieme di istruzioni utili ad eseguire una specifica attività (sottoprogramma)
+La funzione viene *(ri)chiamata* ogni volta che si vuole eseguire tale attività
+L'uso delle funzioni è particolarmente utile per organizzare il codice
+Keyword `def`
+
+
+---
+
+# Le funzioni: primo esempio
+
+Assegnazione di un *nome* alla funzione
+`def nome_funzione():`
+
+Definzione:
+```Python
+def saluta():
+    print("Ciao")
+```
+
+Chiamata:
+```Python
+saluta()
+```
+
+---
+
+# Le funzioni: i parametri
+
+```Python
+def saluta(nome):
+    print("Ciao " + nome)
+
+
+saluta("Matteo")
+saluta("Maria")
+```
+
+```Python
+def saluta(nome1, nome2):
+    print("Ciao " + nome1 + " e " + nome2)
+
+
+saluta("Matteo", "Maria")
+```
+
+---
+
+# Le funzioni: i parametri
+
+```Python
+def somma(n1, n2):
+    print("La somma vale: ", n1 + n2)
+
+
+somma(2, 3)
+```
+
+
+---
+
+# Le funzioni: i parametri
+
+```Python
+def saluta(nome):
+    print("Ciao " + nome)
+
+
+nome = input("Inserisci un nome: ")
+saluta(nome)
+```
+
+---
+
+# Le funzioni: i parametri
+
+```Python
+def somma(n1, n2):
+    print("La somma vale: ", n1 + n2)
+
+
+num1 = int(input("Inserisci un numero: "))
+num2 = int(input("Inserisci un altro numero: "))
+somma(num1, num2)
+```
+
+---
+
+# Le funzioni: return
+
+Permette di restituire informazioni al programma principale 
+Keyword `return`
+
+```Python
+def cubo(n):
+    return n * n * n
+
+
+risultato = cubo(2)
+print(risultato)
+```
+
+---
+
 # Domande?
 
 www.menti.com
