@@ -900,6 +900,27 @@ print(risultato)
 
 ---
 
+# Esercizio
+
+Creare un programma che calcoli la potenza di un numero `n` dato in ingresso l'esponente `e`
+
+Quanto vale `n^e`?
+
+---
+
+# Soluzione
+
+```Python
+def eleva(n, e):
+    ris = 1
+    for i in range(e):
+        ris = ris * n
+    return ris
+
+
+risultato = eleva(2, 3)
+print("La potenza vale: ", risultato)
+```
 
 # Domande?
 
