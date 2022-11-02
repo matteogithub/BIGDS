@@ -921,6 +921,9 @@ Creare un programma che calcoli la potenza di un numero `n` dato in ingresso l'e
 
 Quanto vale `n^e`?
 
+
+**Nota: esiste la funzione pow() ma in questo caso non vogliamo usarla!**
+
 ---
 
 # Soluzione
