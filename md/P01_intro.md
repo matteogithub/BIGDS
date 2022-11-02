@@ -1016,6 +1016,44 @@ my_f()
 
 ---
 
+# Funzioni e visibilità
+
+Concetto di **visibilità** (o *scope*)
+
+Variabili globali e immutabili
+```Python
+def my_f():
+    x = 0
+    print("x in my_f vale: ", x)
+
+
+x = 1
+my_f() #non modifica x globale
+print("x in main vale: ", x)
+```
+
+---
+
+# Funzioni e visibilità
+
+Concetto di **visibilità** (o *scope*)
+
+Variabili globali e immutabili
+```Python
+def my_f():
+    global x
+    x = 0
+    print("x in my_f vale: ", x)
+
+
+x = 1
+my_f() #modifica x globale
+print("x in main vale: ", x)
+```
+Meglio evitare l'uso di variabili globali e usare invece il passaggio dei parametri
+
+---
+
 # Domande?
 
 www.menti.com
