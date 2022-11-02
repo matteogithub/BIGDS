@@ -900,6 +900,20 @@ print(risultato)
 
 ---
 
+# Le funzioni: return
+
+```Python
+def cubo(n):
+    return n * n * n
+
+
+num = int(input("Inserisci un numero: "))
+risultato = cubo(num)
+print("Il cubo di " + str(num) + " vale: " + str(risultato))
+```
+
+---
+
 # Esercizio
 
 Creare un programma che calcoli la potenza di un numero `n` dato in ingresso l'esponente `e`
