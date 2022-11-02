@@ -936,6 +936,26 @@ risultato = eleva(2, 3)
 print("La potenza vale: ", risultato)
 ```
 
+---
+
+# Soluzione
+
+```Python
+def eleva(n, e):
+    ris = 1
+    for i in range(e):
+        ris = ris * n
+    return ris
+
+
+base = int(input("Inserisci la base: "))
+esponente = int(input("Inserisci l'esponente: "))
+risultato = eleva(base, esponente)
+print(str(base) + "^" + str(esponente) + " = " + str(risultato))
+```
+
+---
+
 # Domande?
 
 www.menti.com
