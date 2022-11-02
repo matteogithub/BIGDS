@@ -826,6 +826,8 @@ saluta() #chiamata
 
 # Le funzioni: i parametri
 
+I parametri sono passati per *riferimento*: il parametro diventa un nuovo riferimento all'oggetto passato (mutabili/immutabili)
+
 ```Python
 def saluta(nome):
     print("Ciao " + nome)
@@ -1053,6 +1055,31 @@ print("x in main vale: ", x)
 Meglio evitare l'uso di variabili globali e usare invece il passaggio dei parametri
 
 ---
+
+# Esercizio
+Scrivere un programma che memorizzi N voti e determini la media, il voto maggiore e il voto minore
+
+---
+
+## Soluzione
+
+```Python
+def inserisci(n):
+    print("Inserisci i " + str(n) + " voti: ")
+    voti = []
+    for i in range(n):
+        print("Inserisci voto: ")
+        voti.append(int(input()))
+    return voti
+
+
+n_voti = int(input("Quanti voti vuoi inserire? "))
+voti = inserisci(n_voti)
+print(voti)
+```
+
+---
+
 
 # Domande?
 
