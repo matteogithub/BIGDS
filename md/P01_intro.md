@@ -966,6 +966,56 @@ print(str(base) + "^" + str(esponente) + " = " + str(risultato))
 
 ---
 
+# Funzioni e visibilità
+
+Concetto di **visibilità** (o *scope*)
+
+```Python
+def my_f():
+    x = 0
+    print("x in my_f vale: ", x)
+
+
+x = 1
+print("x in main vale: ", x)
+my_f()
+print("x in main vale: ", x)
+```
+
+---
+
+# Funzioni e visibilità
+
+Concetto di **visibilità** (o *scope*)
+
+Attenzione!
+```Python
+def my_f():
+    x = 0
+    print("x in my_f vale: ", x)
+
+
+print("x in main vale: ", x)
+```
+
+---
+
+# Funzioni e visibilità
+
+Concetto di **visibilità** (o *scope*)
+
+Variabili globali
+```Python
+def my_f():
+    print("x in my_f vale: ", x)
+
+
+x = 1
+my_f()
+```
+
+---
+
 # Domande?
 
 www.menti.com
