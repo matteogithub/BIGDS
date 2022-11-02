@@ -808,17 +808,18 @@ Keyword `def`
 # Le funzioni: primo esempio
 
 Assegnazione di un *nome* alla funzione
-`def nome_funzione():`
+`def nome_funzione():` 
+(**intestazione della funzione**)
 
 Definzione:
 ```Python
 def saluta():
-    print("Ciao")
+    print("Ciao") #corpo della funzione
 ```
 
 Chiamata:
 ```Python
-saluta()
+saluta() #chiamata
 ```
 
 ---
@@ -942,6 +943,10 @@ print("La potenza vale: ", risultato)
 
 ```Python
 def eleva(n, e):
+    """
+    Funzione che calcola il cubo di n
+    usando e come esponente
+    """
     ris = 1
     for i in range(e):
         ris = ris * n
@@ -953,6 +958,8 @@ esponente = int(input("Inserisci l'esponente: "))
 risultato = eleva(base, esponente)
 print(str(base) + "^" + str(esponente) + " = " + str(risultato))
 ```
+
+`""" docstring """` descrive il comportamento della funzione
 
 ---
 
