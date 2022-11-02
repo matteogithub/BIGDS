@@ -959,5 +959,3 @@ print(str(base) + "^" + str(esponente) + " = " + str(risultato))
 # Domande?
 
 www.menti.com
-
----
