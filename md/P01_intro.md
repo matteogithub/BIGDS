@@ -860,8 +860,8 @@ somma(2, 3)
 # Le funzioni: i parametri
 
 ```Python
-def saluta(nome):
-    print("Ciao " + nome)
+def saluta(x):
+    print("Ciao " + x)
 
 
 nome = input("Inserisci un nome: ")
