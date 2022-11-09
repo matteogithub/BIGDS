@@ -795,6 +795,69 @@ print("z: ", z)
 
 ---
 
+# Simulazione prova intermedia
+
+Scrivere un programma che:
+1. consenta di caricare n (con n definito dall'utente) numeri interi in una lista e successivamente visualizzi la lista.
+2. copi in una seconda lista tutti gli elementi pari appartenenti alla prima lista
+3. visualizzi la seconda lista
+
+---
+
+### Soluzione
+
+```Python
+n = int(input("Quanti numeri vuoi inserire? "))
+lista1 = []
+for i in range(n):
+    print("Inserisci numero: ")
+    num = int(input())
+    lista1.append(num)
+print(lista1)
+
+lista2 = []
+for num in lista1:
+    if num % 2 == 0:
+        lista2.append(num)
+print(lista2)
+```
+
+---
+
+# Simulazione prova intermedia
+
+Scrivere un programma che:
+1. consenta di caricare n (con n definito dall'utente) numeri interi pari in una lista e successivamente visualizzi la lista.
+2. copi (usando un ciclo) in una seconda lista tutti gli elementi appartenenti alla prima lista in un intervallo definito dall'utente 
+3. visualizzi la seconda lista
+
+---
+
+### Soluzione
+
+```Python
+n = int(input("Quanti numeri vuoi inserire? "))
+lista1 = []
+i = 0
+while i < n:
+    print("Inserisci numero: ")
+    num = int(input())
+    if num % 2 == 0:
+        lista1.append(num)
+        i = i + 1
+
+print(lista1)
+lista2 = []
+print("Definisci intervallo: ")
+inizio = int(input("Inizio: "))
+fine = int(input("Fine: "))
+for i in range(inizio, fine):
+    lista2.append(lista1[i])
+print(lista2)
+```
+
+---
+
 # Le funzioni
 
 Una *funzione* è costituita da insieme di istruzioni utili ad eseguire una specifica attività (sottoprogramma)
