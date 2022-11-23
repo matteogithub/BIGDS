@@ -1143,6 +1143,32 @@ print(voti)
 
 ---
 
+# Esercizio
+
+Scrivere un programma in Python che:
+consenta di caricare in una lista (lista1) n numeri interi letti da tastiera (con n definito dall’utente). 
+consenta di visualizzare a video la lista (lista1)
+
+---
+
+# Soluzione
+
+```Python
+def make_list(dim_l):
+    lista = []
+    for _ in range(dim_l):
+        num = int(input("Inserisci numero: "))
+        lista.append(num)
+    return lista
+
+
+n = int(input("Quanti elementi vuoi inserire?"))
+l1 = make_list(n)
+print(l1)
+```
+
+---
+
 # Dictionaries
 
 I dizionari sono simili alle lista, ma a differenza di queste, nei Dizionari ad ogni elemento è associata una chiave che potrà essere usata per accedere al valore dell'elemento.
