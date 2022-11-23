@@ -889,7 +889,7 @@ saluta() #chiamata
 
 # Le funzioni: i parametri
 
-I parametri sono passati per *riferimento*: il parametro diventa un nuovo riferimento all'oggetto passato (mutabili/immutabili)
+Il(/i) parametro(/i) della funzione rappresenta(/no) un nuovo riferimento all'oggetto passato (mutabili/immutabili)
 
 ```Python
 def saluta(nome):
