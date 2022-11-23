@@ -1143,6 +1143,71 @@ print(voti)
 
 ---
 
+# Dictionaries
+
+I dizionari sono simili alle lista, ma a differenza di queste, nei Dizionari ad ogni elemento è associata una chiave che potrà essere usata per accedere al valore dell'elemento.
+
+`d = {'key1': 0, 'key2': 1}`
+
+I valori posso essere di qualsiasi tipo. Posso esserci valori di tipo differente.
+
+---
+
+# Dictionaries
+
+```Python
+mesi = {"gen": "gennaio",
+        "feb": "febbraio",
+        "mar": "marzo"}
+print(mesi["gen"])
+print(mesi.get("feb"))
+print(mesi.get("feb","Valore non valido"))
+print(mesi.get("apr","Valore non valido"))
+```
+
+---
+
+# Dictionaries
+
+```Python
+mesi = {1: "gennaio",
+        2: "febbraio",
+        3: "marzo"}
+print(mesi[1])
+print(mesi.get(2))
+```
+
+```Python
+mesi = {1: "gennaio",
+        2: "febbraio",
+        3: "marzo"}
+mesi[1]="Gennaio"
+print(mesi.get(1))
+mesi[4] = "aprile"
+print(mesi.get(4))
+```
+---
+
+# Dictionaries
+
+```Python
+mesi = {1: "gennaio",
+        2: "febbraio",
+        3: "marzo"}
+del mesi[3]
+mesi.clear()
+```
+```Python
+mesi = {1: "gennaio",
+        2: "febbraio",
+        3: "marzo"}
+print(mesi.keys())
+print(mesi.values())
+print(mesi.items())
+```
+
+---
+
 
 # Domande?
 
