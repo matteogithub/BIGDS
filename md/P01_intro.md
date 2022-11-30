@@ -1234,7 +1234,146 @@ print(mesi.items())
 
 ---
 
+# Leggere un file esterno
 
-# Domande?
+### lettura:
+- apertura `open()` (path) / modalità (r, w, a, r+)
+- leggere: assegnare ad una varibile
+- verificare l'esistenza del file
+- recuperare le informazioni dal file
+- chiusura: `.close()`
 
-www.menti.com
+---
+
+### Esempio
+
+```
+Matteo - Cagliari
+Maria - Roma
+Alberto - Sassari
+```
+
+```Python
+my_file=open("/Users/matteo/Downloads/sample_file.txt","r")
+#my_file.readable()
+print(my_file.read())
+my_file.close()
+```
+
+```Python
+my_file=open("/Users/matteo/Downloads/sample_file.txt","r")
+print(my_file.readline())
+print(my_file.readline())
+my_file.close()
+```
+
+---
+
+### Esempio
+
+`.readlines()` -> crea una lista
+
+```Python
+my_file=open("/Users/matteo/Downloads/sample_file.txt","r")
+print(my_file.readlines())
+my_file.close()
+```
+```Python
+my_file=open("/Users/matteo/Downloads/sample_file.txt","r")
+print(my_file.readlines()[0])
+my_file.close()
+```
+```Python
+my_file=open("/Users/matteo/Downloads/sample_file.txt","r")
+for persona in my_file.readlines():
+    print(persona)
+my_file.close()
+```
+
+---
+
+### Esempio
+```
+11
+22
+33
+```
+```Python
+my_file=open("/Users/matteo/Downloads/sample_nums.txt","r")
+n1=int(my_file.readline())
+n2=int(my_file.readline())
+n3=int(my_file.readline())
+print(n1+n2+n3)
+my_file.close()
+```
+```Python
+my_file=open("/Users/matteo/Downloads/sample_nums.txt","r")
+my_list=[]
+for num in my_file.readlines():
+    my_list.append(int(num))    
+print(my_list)
+my_file.close()
+```
+---
+
+# Scrivere su un file esterno
+
+### scrittura:
+- apertura `open()` (path) / modalità (r, w, a, r+)
+
+Modalità `append` (a) e `write` (w)
+
+```Python
+my_file=open("/Users/matteo/Downloads/sample_file.txt","a")
+my_file.write("\nAndrea - Nuoro")
+my_file.close()
+```
+```Python
+my_file=open("/Users/matteo/Downloads/sample_file.txt","w")
+my_file.write("Andrea - Nuoro")
+my_file.close()
+```
+
+---
+
+# Moduli
+
+Insieme di funzioni che possiamo usare all'interno del nostro programma 
+E' necessario importare tali moduli
+`import` nome_del_file_da_importare
+- built-in modules
+- external modules
+
+---
+
+### Esempio
+
+my_tools.py file (il mio modulo)
+```Python
+import random
+
+
+def lancia_dado(num):
+    return random.randint(1, num)
+```
+main.py file (il mio programma)
+```Python
+import my_tools
+
+dado = my_tools.lancia_dado(6)
+print(dado)
+```
+
+---
+
+# pip
+
+Viene usato per installare moduli esterni in Python
+
+`pip install nome_package`
+
+Su Windows: command prompt
+`pip --version` verificare che sia presente
+
+`pip uninstall nome_package`
+
